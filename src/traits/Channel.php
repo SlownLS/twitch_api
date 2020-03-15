@@ -104,7 +104,7 @@ trait Channel{
      *
      * @return boolean
      */
-    protected function isSubscriber() : bool
+    protected function IsSubscriber() : bool
     {
         if( !\is_null($this->channel_subscriber) ){ return $this->channel_subscriber; }
 
@@ -142,7 +142,7 @@ trait Channel{
      *
      * @return boolean
      */
-    protected function isModerator() : bool
+    protected function IsModerator() : bool
     {
         if( !\is_null($this->channel_moderator) ){ return $this->channel_moderator; }
 

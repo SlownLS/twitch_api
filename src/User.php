@@ -27,10 +27,10 @@ class User{
     /**
      * Get user by name
      *
-     * @param [type] $userName
+     * @param string $userName
      * @return void
      */
-    protected function GetByName($userName)
+    protected function GetByName(string $userName)
     {
         $client = $this->Client();
 
