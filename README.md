@@ -1,4 +1,4 @@
-# twitch_api
+# Twitch API
 A Simple library for Twitch API create in PHP.
 
 ## Installation 
