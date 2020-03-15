@@ -4,11 +4,11 @@ require "vendor/autoload.php";
 
 Use SlownLS\Twitch\User;
 
-define("TWITCH_CLIENT", "bb2xx0lpeyyy9inkg1gqfcz6bmx4xa");
+define("TWITCH_CLIENT", "xxxxxxxxxxx");
 
 User::SetConfig([
     "client" => TWITCH_CLIENT,
-    "secret" => "s2wqn5cye7f18x5uyurk29bbyrt8sq",
+    "secret" => "xxxxxxxxxxx",
     "return" => "http://127.0.0.1/twitch_api_v2/connect",
     "force_verify" => true,
     "loginScopes" => array(
