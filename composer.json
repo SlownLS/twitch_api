@@ -1,0 +1,22 @@
+{
+    "name": "slownls/twitch_api",
+    "description": "A library for Twitch API in PHP",
+    "keywords": ["slownls", "twitch", "api", "object-oriented"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "SlownLS",
+            "email": "slownls.luca@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SlownLS\\Twitch\\": "src/"
+        }
+    }    
+}
