@@ -33,7 +33,7 @@ User::IsModerator() - Whether the user is the moderator of the reference channel
 
 User::FollowChannel() - Use to follow the reference channel
 
-User::UnFollowChannel - Use to no longer follow the reference channel
+User::UnFollowChannel() - Use to no longer follow the reference channel
 ~~~
 
 ## Channel functions
