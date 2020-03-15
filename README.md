@@ -17,7 +17,7 @@ User::Login() - Used to redirect the user to the twitch login page.
 
 User::Connect(string $code) - Used to connect the user with the twitch token.
 
-User::GetLocalInfo(string $keu) - Used to retrieve user's information
+User::GetLocalInfo(string $key) - Used to retrieve user's information
 
 User::GetByName(string $userName) - Used to retrieve a user's information with their name.
 
