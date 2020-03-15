@@ -8,44 +8,43 @@ composer require "slownls/twitch_api"
 
 ## User functions
 
-User::IsLogged() - Sert à savoir si l'utilisateur est connecté
+User::IsLogged() - Whether the user is logged in.
 
-User::Logout() - Sert à déconnecter l'utilisateur
+User::Logout() - Used to log the user out.
 
-User::Login() - Sert à rediriger l'utilisateur sur la page de connection de twitch
+User::Login() - Used to redirect the user to the twitch login page.
 
-User::Connect(string $code) - Sert à connecter l'ulilisateur avec le token twitch
+User::Connect(string $code) - Used to connect the user with the twitch token.
 
-User::GetLocalInfo(string $keu) - Sert à récupérer les informations de l'utilisateur
+User::GetLocalInfo(string $keu) - Used to retrieve user's information
 
-User::GetByName(string $userName) - Sert à récupérer les informations d'un utilisateur avec son nom
+User::GetByName(string $userName) - Used to retrieve a user's information with their name.
 
+User::SetChannel(\SlownLS\Twitch\Channel $channel) - Used to set the reference channel
 
-User::SetChannel(\SlownLS\Twitch\Channel $channel) - Sert à définir le channel de référence
+User::HasChannel() - Whether the reference channel is defined
 
-User::HasChannel() - Sert à savoir si le channel de référence est définit
+User::IsFollower() - Whether the user is the reference channel.
 
-User::IsFollower() - Sert à savoir si l'utilisateur suis le channel de référence
+User::IsSubscriber() - Whether the user subscribes to the reference channel.
 
-User::IsSubscriber() - Sert à savoir si l'utilisateur est abonné au channel de référence
+User::IsModerator() - Whether the user is the moderator of the reference channel.
 
-User::IsModerator() - Sert à savoir si l'utilisateur est modérateur du channel de référence
+User::FollowChannel() - Use to follow the reference channel
 
-User::FollowChannel() - Sert à suivre le channel de référence
-
-User::UnFollowChannel - Sert à ne plus suivre le channel de référence
+User::UnFollowChannel - Use to no longer follow the reference channel
 
 
 ## Channel functions
 
-Channel::SetChannel(string $channelName) - Sert à définir la chaine de référence
+Channel::SetChannel(string $channelName) - Used to set the reference channel
 
-Channel::HasChannel() - Sert à savoir si le channel de référence est définit
+Channel::HasChannel() - Whether the reference channel is defined
 
-Channel::GetInfos() - Sert à récupérer les informations de la chaine
+Channel::GetInfos() - Used to retrieve the channel information.
 
-Channel::GetStream() - Sert à récupérer le stream de la chaine
+Channel::GetStream() - Used to retrieve the stream of the channel
 
-Channel::GetName() - Sert à récupérer le nom de la chaine
+Channel::GetName() - Used to retrieve the name of the channel
 
-Channel::GetDisplayName() - Sert à récupéré le nom d'affiche de la chaine
+Channel::GetDisplayName() - Used to get the channel's poster name.
