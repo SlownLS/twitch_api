@@ -42,6 +42,11 @@ class Channel{
         ]);
                 
         $data = $this->Parse($response);
+        $status = $response->getStatusCode();
+
+        if( $status == 401 ){
+            throw new Exception("Invalid Client ID");
+        }
 
         if( isset($data->data) ){
             $data = $data->data;
