@@ -8,6 +8,7 @@ composer require "slownls/twitch_api"
 
 ## User functions
 
+~~~ php
 User::IsLogged() - Whether the user is logged in.
 
 User::Logout() - Used to log the user out.
@@ -33,10 +34,11 @@ User::IsModerator() - Whether the user is the moderator of the reference channel
 User::FollowChannel() - Use to follow the reference channel
 
 User::UnFollowChannel - Use to no longer follow the reference channel
-
+~~~
 
 ## Channel functions
 
+~~~ php
 Channel::SetChannel(string $channelName) - Used to set the reference channel
 
 Channel::HasChannel() - Whether the reference channel is defined
@@ -48,3 +50,4 @@ Channel::GetStream() - Used to retrieve the stream of the channel
 Channel::GetName() - Used to retrieve the name of the channel
 
 Channel::GetDisplayName() - Used to get the channel's poster name.
+~~~
