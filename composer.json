@@ -1,5 +1,6 @@
 {
     "name": "slownls/twitch_api",
+    "version": "1.0.0",
     "description": "A library for Twitch API in PHP",
     "keywords": ["slownls", "twitch", "api", "object-oriented"],
     "type": "library",
